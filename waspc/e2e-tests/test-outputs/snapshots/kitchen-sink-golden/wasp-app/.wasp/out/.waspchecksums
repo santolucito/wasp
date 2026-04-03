@@ -32,14 +32,14 @@
             "file",
             "libs/auth/wasp.sh-lib-auth-0.23.0.tgz"
         ],
-        "1eaab6b4d7830b7cb597771b415fe08824c262e3c32de9838f8fa4392b38453a"
+        "daddf61c559ac6ca19e4fc9c2d00bf878cf69672034c7d57e776cac47e87f65c"
     ],
     [
         [
             "file",
             "libs/vite-ssr/wasp.sh-lib-vite-ssr-0.23.0.tgz"
         ],
-        "7053902efdb01cc8b71c83a7df32852fc7826c5189ca2ba9fc8b513382e7e5c4"
+        "4091ef5ed125ed0d0ba543c1ee3755427f8b449e391a1fc93555dc3c3b1154bb"
     ],
     [
         [
@@ -1075,7 +1075,7 @@
             "file",
             "sdk/wasp/server/email/core/types.ts"
         ],
-        "2cdb06f4cf935e023ef90353c783033187e55ac75ce2fae59e30d050ea176eb1"
+        "bedc8f94e3530e0e01f5d377a5fbeb41fb55aa9380834f9f27d5f1ffb10e7c2f"
     ],
     [
         [

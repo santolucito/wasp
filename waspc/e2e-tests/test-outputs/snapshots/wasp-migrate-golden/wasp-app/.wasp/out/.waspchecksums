@@ -11,28 +11,28 @@
             "file",
             "Dockerfile"
         ],
-        "11dd70eef0b1da245dd9263d40a63b4057b0e972ffb0d98dc0a832a5505d0c60"
+        "fca785fd9822233e596b29e63b9c05a76929e226f173b6faf655547ca3bc3525"
     ],
     [
         [
             "file",
             "db/schema.prisma"
         ],
-        "970f67dfecedff17463aeff7ccf543a30f71f4365e568b241b7135ef82722f91"
+        "f1a595c83f321669fe08d7fbf86243783dddaf751d4d1982419096d43b3b0ffd"
     ],
     [
         [
             "file",
             "libs/auth/wasp.sh-lib-auth-0.23.0.tgz"
         ],
-        "1eaab6b4d7830b7cb597771b415fe08824c262e3c32de9838f8fa4392b38453a"
+        "daddf61c559ac6ca19e4fc9c2d00bf878cf69672034c7d57e776cac47e87f65c"
     ],
     [
         [
             "file",
             "libs/vite-ssr/wasp.sh-lib-vite-ssr-0.23.0.tgz"
         ],
-        "7053902efdb01cc8b71c83a7df32852fc7826c5189ca2ba9fc8b513382e7e5c4"
+        "4091ef5ed125ed0d0ba543c1ee3755427f8b449e391a1fc93555dc3c3b1154bb"
     ],
     [
         [
@@ -382,14 +382,7 @@
             "file",
             "sdk/wasp/core/serialization/index.ts"
         ],
-        "daaf6d88944b11969bcf278b84409b3ca81dc2f3cc97037df3ebc7f293381a74"
-    ],
-    [
-        [
-            "file",
-            "sdk/wasp/core/serialization/prisma.ts"
-        ],
-        "bbfc1428c31642ddc87ec68b672e60219b3313eee66b75169c5cf2593e4893ab"
+        "cb3b769a74f5cadab1582df4e6e36cdeeebfe9f926faa2c9f40e2ddf46ddf75b"
     ],
     [
         [
@@ -403,7 +396,7 @@
             "file",
             "sdk/wasp/entities/index.ts"
         ],
-        "c5077f0d9a9224986a1c42b54de449e48af1f2b9ecc8778eb44cd55ebd9d23a7"
+        "c59b97b122b977b5171686c92ee5ff2d80d397c2e83cc0915affb6ee136406fb"
     ],
     [
         [
@@ -452,14 +445,14 @@
             "file",
             "sdk/wasp/server/_types/index.ts"
         ],
-        "ffd727cbcb0071882622cf2952c7fbcc779a3472ff50763066d1f174ab6c2b8b"
+        "eb670470bdf240069288cb4b26c27dee74a9c7327d1df5639018a5627b6be02f"
     ],
     [
         [
             "file",
             "sdk/wasp/server/_types/taggedEntities.ts"
         ],
-        "d80e8c2e35e837fbd739b33541671da8db15f21ccf235963c904f362381ea2c3"
+        "94a8c58d122296edd8803618b878c66dc1ce27035735f31bb97d6a58be219324"
     ],
     [
         [
@@ -473,7 +466,7 @@
             "file",
             "sdk/wasp/server/dbClient.ts"
         ],
-        "226fa8323e71ca4b57837f28db7b042e2a481d84bfff83585be3f161310f8f76"
+        "66cc2f77c482e1809113c9b31319b2a8e5d9e6413018c103dc6281c35252be51"
     ],
     [
         [
@@ -669,7 +662,7 @@
             "file",
             "server/package.json"
         ],
-        "5fede8ff68d7f79aa398908ca2703ff20e2f21810fcdb42a9a47c951034c78f4"
+        "153edcad806dd8048815cc213eee51ebb3203f3359e9ad482dc9b22cdd700601"
     ],
     [
         [

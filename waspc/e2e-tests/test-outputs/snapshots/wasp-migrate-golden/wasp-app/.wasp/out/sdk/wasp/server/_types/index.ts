@@ -47,7 +47,6 @@ export type EntityMap<Entities extends _Entity[]> = {
 }
 
 export type PrismaDelegate = {
-  "Task": typeof prisma.task,
 }
 
 type Context<Entities extends _Entity[]> = Expand<{
