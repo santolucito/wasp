@@ -125,21 +125,17 @@ const serverUrlSchema =
   z.string({
     error: '{= serverUrlEnvVarName =} is required',
   })
-  .pipe(
-    z.url({
-      error: '{= serverUrlEnvVarName =} must be a valid URL',
-    })
-  )
+  .url({
+    error: '{= serverUrlEnvVarName =} must be a valid URL',
+  })
 
 const clientUrlSchema =
   z.string({
     error: '{= clientUrlEnvVarName =} is required',
   })
-  .pipe(
-    z.url({
-      error: '{= clientUrlEnvVarName =} must be a valid URL',
-    })
-  )
+  .url({
+    error: '{= clientUrlEnvVarName =} must be a valid URL',
+  })
 
 {=# isAuthEnabled =}
 const jwtTokenSchema = z
