@@ -28,6 +28,7 @@ Choose from one of the providers:
 - `Dummy` (development only),
 - `Mailgun`,
 - `SendGrid`
+- `Resend`
 - or the good old `SMTP`.
 
 Optionally, define the `defaultFrom` field, so you don't need to provide it whenever sending an email.
@@ -173,6 +174,35 @@ Then, get the SendGrid API key and add it to your `.env.server` file.
 SENDGRID_API_KEY=
 ```
 
+### Using the Resend Provider {#resend}
+
+Set the provider field to `Resend` in your `main.wasp` file.
+
+```wasp title="main.wasp"
+app Example {
+  ...
+  emailSender: {
+    provider: Resend,
+  }
+}
+```
+
+Then, get the Resend API key and add it to your `.env.server` file.
+
+#### Getting the API Key
+
+1. Go to [Resend](https://resend.com/) and create an account.
+2. Go to [API Keys](https://resend.com/api-keys) and create a new API key.
+3. Copy the API key and add it to your `.env.server` file.
+
+```properties title=".env.server"
+RESEND_API_KEY=
+```
+
+:::tip Railway deployment
+Resend is the [recommended email provider for Railway](https://railway.app/), one of Wasp's supported deployment targets.
+:::
+
 ## API Reference
 
 ### `emailSender` dict
@@ -194,7 +224,7 @@ The `emailSender` dict has the following fields:
 
 - `provider: Provider` <Required />
 
-  The provider you want to use. Choose from `Dummy`, `SMTP`, `Mailgun` or `SendGrid`.
+  The provider you want to use. Choose from `Dummy`, `SMTP`, `Mailgun`, `SendGrid` or `Resend`.
 
   <DummyProviderNote />
 
